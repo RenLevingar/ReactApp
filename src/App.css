@@ -1,5 +1,12 @@
+*{
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
+  background-color: rgb(0, 0, 83);
+  width: 100vw;
+  height: auto;
 }
 
 .App-logo {
@@ -35,4 +42,74 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  color: white;
+}
+
+h3{
+  color: black;
+}
+
+h5{
+  color: black;
+}
+
+.studentBox{
+  background-color: white;
+  width: 20vw;
+  height: 22vh;
+  border-radius: 50px;
+  color: black;
+  margin: 25px;
+  overflow-y: hidden;
+  box-shadow: 5px 5px lightblue;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.removeBTN{
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.addBTN{
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pageTitle{
+  width: 100vw;
+}
+
+.adder{
+  background-color: white;
+  width: 20vw;
+  height: 22vh;
+  border-radius: 50px;
+  color: black;
+  margin: 25px;
+  overflow-y: hidden;
+  box-shadow: 5px 5px lightblue;
+}
+
+.collegeSection{
+  width: 30vw;
+}
+
+.studentSection{
+  width: 70vw;
+  border-bottom: 3px solid white;
 }
